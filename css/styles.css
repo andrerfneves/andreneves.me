@@ -157,7 +157,16 @@ i {
 .text-right{
     text-align: right;
 }
+p.copyright{
+    color: #969696;
+    padding-top: 30px;
+    margin-bottom: -30px;
 
+}
+p.copyright a{
+    color: #969696;
+    text-decoration: none;
+}
 
 /* Media Sizing */
 /* 550+px */
