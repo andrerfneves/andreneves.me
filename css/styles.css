@@ -82,18 +82,43 @@ i {
 
 .andres {
     position: relative;
-    height: 600px;
-    left: 1rem;
+    height: 280px;
     top: 2rem;
 }
 .andres img {
-    height: 450px;
     min-width: 246px;
 }
 .andre {
     position: relative;
     max-width: 95%;
     margin: 3rem auto -10rem;
+}
+
+
+.portfolio {
+    position: relative;
+    height: 280px;
+}
+.portfolio img {
+    min-width: 250px;
+}
+.port-single {
+    position: relative;
+    max-width: 95%;
+    margin: 2rem auto -10rem;
+}
+
+.portfolio-ip {
+    position: relative;
+    height: 280px;
+}
+.portfolio-ip img {
+    min-width: 300px;
+}
+.port-single-ip {
+    position: relative;
+    max-width: 150%;
+    margin: 2rem auto -10rem;
 }
 
 
