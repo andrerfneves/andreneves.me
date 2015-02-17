@@ -16,6 +16,22 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     background-color: #333333;
     padding: 8rem 0 3rem;
 }
+.section.phoncert {
+    background-color: #980000;
+    padding: 8rem 0 3rem;
+}
+.section.skins {
+    background: #782254;
+    padding: 8rem 0 3rem;
+}
+.section.sjc {
+    background-color: #734300;
+    padding: 8rem 0 3rem;
+}
+.section.wreckroom {
+    background-color: #111;
+    padding: 8rem 0 3rem;
+}
 .skills .row .column {
     padding: 1rem;
 }
@@ -77,9 +93,33 @@ i {
     right: 2rem;
 }
 
-/* Works Section */
-.phoncert{
-    background: red;
+/* Works */
+/* Phoncert Section*/
+.btn-phoncert, .btn-phoncert:after, .btn-phoncert:focus{
+    color: #fff;
+    border-color: #fff;
+}
+.btn-phoncert:hover{
+    color: #f2f2f2 !important;
+    border-color: #cecece !important;
+}
+
+/* The Skins */
+.btn-skins, .btn-skins:after, .btn-skins:focus{
+    color: #fff;
+    border-color: #fff;
+}
+.btn-skins:hover{
+    color: #f2f2f2 !important;
+    border-color: #cecece !important;
+}
+
+/* Misc */
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
 }
 
 
