@@ -1,8 +1,6 @@
 # Repo for andreneves.me #
 
 git clone https://github.com/andrerfneves/andreneves.me.git
-cd andreneves.me
-meteor
 
 This is the source code for my personal website.
 Made use of @dhg’s Skeleton (super lightweight CSS framework)

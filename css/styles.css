@@ -78,7 +78,7 @@ i {
     font: 11px italic;
 }
 
-/* Mhome BG Img Positioning */
+/* BG Img Positioning */
 
 .andres {
     position: relative;
@@ -91,10 +91,8 @@ i {
 .andre {
     position: relative;
     max-width: 95%;
-    margin: 3rem auto -10rem;
+    margin: 1rem auto -8rem;
 }
-
-
 .portfolio {
     position: relative;
     height: 280px;
@@ -107,7 +105,6 @@ i {
     max-width: 95%;
     margin: 2rem auto -10rem;
 }
-
 .portfolio-ip {
     position: relative;
     height: 280px;
@@ -186,11 +183,14 @@ p.copyright{
     color: #969696;
     padding-top: 30px;
     margin-bottom: -30px;
-
 }
 p.copyright a{
     color: #969696;
     text-decoration: none;
+}
+p.copyright i.fa{
+    color: #969696;
+    margin-right: 0rem !important;
 }
 
 /* Media Sizing */
@@ -221,19 +221,19 @@ p.copyright a{
         height: auto;
         min-width: 0;
     }
-    .andre + .andre {
-        top: -6rem;
-        display: block;
-        max-width: 73.8%;
-        right: 0;
-        z-index: 2;
-        max-height: 338px;
-    }
     .works-heading {
         font-size: 2.4rem;
     }
     .skills .one-half.column:first-of-type {
         border-bottom: none;
+    }
+    .portfolio img {
+        min-width: 250px;
+    }
+    .port-single {
+        position: relative;
+        max-width: 95%;
+        margin: 2rem auto -10rem;
     }
 }
 
@@ -261,10 +261,6 @@ p.copyright a{
         right: 3rem;
         max-height: 510px;
     }
-    .andre + .andre {
-        top: -12rem;
-        max-height: 472px;
-    }
 }
 
 /* 1000+px */
@@ -287,9 +283,5 @@ p.copyright a{
     .andre {
         top: -16rem;
         max-height: 615px;
-    }
-    .andre + .andre {
-        top: -14rem;
-        max-height: 570px;
     }
 }
