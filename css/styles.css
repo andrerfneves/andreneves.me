@@ -16,6 +16,9 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     background-color: #333333;
     padding: 8rem 0 3rem;
 }
+.full-window.dark{
+    background-color: #333333;
+}
 .section.phoncert {
     background-color: #980000;
     padding: 8rem 0 3rem;
@@ -30,6 +33,10 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 }
 .section.wreckroom {
     background-color: #111;
+    padding: 8rem 0 3rem;
+}
+.section.bednark {
+    background-color: #1763aa;
     padding: 8rem 0 3rem;
 }
 .skills .row .column {
@@ -75,44 +82,73 @@ i {
 
 .andres {
     position: relative;
-    height: 400px;
+    height: 600px;
     left: 1rem;
     top: 2rem;
 }
 .andres img {
-    height: 345px;
+    height: 450px;
     min-width: 246px;
 }
 .andre {
     position: relative;
-    max-width: 80%;
-    margin: 3rem auto -12rem;
-}
-.andre + .andre {
-    top: -25rem;
-    right: 2rem;
+    max-width: 95%;
+    margin: 3rem auto -10rem;
 }
 
-/* Works */
-/* Phoncert Section*/
+
+/* Buttons */
+.btn-wreckroom, .btn-wreckroom:after, .btn-wreckroom:focus{
+    color: #fff;
+    border-color: #fff;
+}
+.btn-wreckroom:hover{
+    color: #000 !important;
+    border-color: #cecece !important;
+    background: #f2f2f2;
+}
 .btn-phoncert, .btn-phoncert:after, .btn-phoncert:focus{
     color: #fff;
     border-color: #fff;
 }
 .btn-phoncert:hover{
-    color: #f2f2f2 !important;
+    color: #980000 !important;
     border-color: #cecece !important;
+    background: #f2f2f2;
 }
-
-/* The Skins */
 .btn-skins, .btn-skins:after, .btn-skins:focus{
     color: #fff;
     border-color: #fff;
 }
 .btn-skins:hover{
-    color: #f2f2f2 !important;
+    color: #782254 !important;
     border-color: #cecece !important;
+    background: #f2f2f2;
 }
+.btn-bednark, .btn-bednark:after, .btn-bednark:focus{
+    color: #fff;
+    border-color: #fff;
+}
+.btn-bednark:hover{
+    color: #1763aa !important;
+    border-color: #cecece !important;
+    background: #f2f2f2;
+}
+.btn-sjc, .btn-sjc:after, .btn-sjc:focus{
+    color: #fff;
+    border-color: #fff;
+}
+.btn-sjc:hover{
+    color: #734300 !important;
+    border-color: #cecece !important;
+    background: #f2f2f2;
+}
+.btn-andre:hover{
+    color: #ffffff !important;
+    border-color: #cecece !important;
+    background: #454545;
+}
+
 
 /* Misc */
 .text-left{
