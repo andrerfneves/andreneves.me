@@ -19,6 +19,12 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 .full-window.dark{
     background-color: #333333;
 }
+.full-window.main{
+    background-color: #222;
+}
+.section.services{
+    padding: 8rem 0 1.5rem;
+}
 .section.phoncert {
     background-color: #980000;
     padding: 8rem 0 3rem;
@@ -73,6 +79,10 @@ i {
 .summary {
     opacity: .8;
     font-weight: 300;
+    color: #cecece !important;
+}
+.desc{
+    color: #f2f2f2;
 }
 .meta {
     font: 11px italic;
@@ -114,7 +124,7 @@ i {
 }
 .port-single-ip {
     position: relative;
-    max-width: 150%;
+    max-width: 100%;
     margin: 2rem auto -10rem;
 }
 
@@ -192,7 +202,22 @@ p.copyright i.fa{
     color: #969696;
     margin-right: 0rem !important;
 }
-
+.works-heading{
+    color: #f9f9f9 !important;
+}
+a i.social-top{
+    color: #e0e0e0;
+}
+a i.social-top:hover{
+    color: #afafaf;
+}
+a{
+    outline: 0 !important;
+    text-decoration: none;
+}
+.summary-services{
+    color: #afafaf;
+}
 /* Media Sizing */
 /* 550+px */
 @media (min-width: 550px) {
